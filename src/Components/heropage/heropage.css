@@ -1,0 +1,255 @@
+.heropage-main-div {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://res.cloudinary.com/ddaxlm9yc/image/upload/v1707415323/ep0cv7qrffwcy9oakira.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.logo-black-div {
+  width: 264px;
+  height: 120px;
+  background: #060606;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+  position: fixed;
+  z-index: 1100;
+}
+
+.logo-black-inner-div {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-black-inner-div img {
+  width: 35%;
+}
+
+.logo-black-inner-div h3 {
+  width: min-content;
+  color: white;
+  background: #00000099;
+  margin-top: -25%;
+}
+
+#player {
+  width: 750px;
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  margin: 0;
+  margin-bottom: -30px;
+}
+
+#ball {
+  position: absolute;
+  width: 100px;
+  left: 55%;
+  top: 30%;
+}
+
+.countdown {
+  position: absolute;
+  width: 347px;
+  height: 240px;
+  border-radius: 15px;
+  /* background: #D9D9D966; */
+  /* background-image: url("../../Images/Group\ 247.png");
+    background-position: center;
+    background-size: 100% 100%; */
+  top: 20%;
+  right: 5%;
+  /* font-size: 1.4rem; */
+  margin-bottom: 50px;
+}
+
+/* .countdown p {
+    padding-left: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4px;
+    margin-top: 135px;
+    background-color: antiquewhite;
+} */
+
+/* .countdown p span {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.head-heading {
+  width: 650px;
+  height: 200px;
+  /* background: #000000; */
+  /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+  color: white;
+  font-size: 3rem;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-heading img {
+  width: 100%;
+}
+
+@media (max-width: 1300px) {
+  #ball {
+    left: 60%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .head-heading {
+    scale: 0.7;
+    padding-top: 2rem;
+  }
+
+  .balls {
+    display: none;
+  }
+
+  .countdown {
+    top: 10%;
+  }
+
+  .head-heading {
+    margin-left: 20px;
+  }
+
+  #player {
+    margin-left: -70px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo-black-div {
+    /* clip-path: none; */
+    width: 100px;
+    height: 90px;
+    /* background-color: transparent; */
+  }
+
+  #player {
+    margin-left: 0;
+  }
+
+  .logo-black-inner-div {
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo-black-inner-div h3 {
+    font-size: 0.8rem;
+  }
+
+  .head-heading {
+    position: static;
+    width: 300px;
+    height: 100px;
+    font-size: 1.3rem;
+    right: 0;
+    margin-top: 70px;
+  }
+
+  #player {
+    position: static;
+    width: 400px;
+  }
+
+  #ball {
+    display: none;
+    width: 80px;
+    top: 50%;
+    left: 70%;
+  }
+
+  .countdown {
+    position: static;
+    right: 0;
+  }
+
+  .heropage-main-div {
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  #ball {
+    left: 75%;
+  }
+}
+
+@media (max-width: 750px) {
+  #ball {
+    left: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .head-heading {
+    font-size: 1rem;
+    width: 300px;
+    height: 80px;
+    margin-top: 80px;
+  }
+
+  .countdown {
+    /* width: 200px; */
+    /* height: 80px; */
+    scale: 0.8;
+    margin-top: -30px;
+  }
+
+  #player {
+    width: 400px;
+  }
+
+  #ball {
+    width: 50px;
+    top: 42%;
+    left: 70%;
+  }
+}
+
+@media (max-width: 550px) {
+  #ball {
+    left: 75%;
+  }
+}
+
+@media (max-width: 450px) {
+  #ball {
+    left: 80%;
+  }
+
+  /* #player {
+    margin-top: 20px;
+    margin-left: -50px;
+  } */
+
+  .head-heading {
+    padding-top: 50px;
+  }
+}

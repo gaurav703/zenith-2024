@@ -1,0 +1,146 @@
+.navbar-main-div {
+  width: 100vw;
+  height: 70px;
+  background-color: #2a2a2a;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  transition: top 0.3s;
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15);
+}
+
+.aaa.hidden {
+  top: -80px;
+}
+
+.navbar-inner-div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-inner-div ul {
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navbar-inner-div ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-but {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-inner-div ul li a:hover {
+  border-color: #ff8503;
+  color: #ff8503;
+}
+
+#menu-logo {
+  display: none;
+}
+
+.middle2 {
+  /* margin-top: 3rem; */
+  padding: 0.3rem 0.7rem;
+  color: white;
+  /* font-size: 18px; */
+  border: 3px solid white;
+  border-radius: 7px;
+}
+
+@media screen and (max-width: 500px) {
+  .middle2 {
+    margin-top: 30px;
+  }
+
+}
+
+.middle2:hover {
+  background-color: #ff8503;
+  color: #fff;
+  border: 3px solid #ff8503;
+}
+
+.hamb {
+  display: none;
+}
+
+.logo-black-div {
+  width: 200px;
+}
+
+.logoss {
+  scale: 1.4;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .hamb {
+    display: block;
+  }
+
+  .navbar-main-div {
+    height: 65px;
+  }
+
+  #menu-logo {
+    display: block;
+    width: 30px;
+    height: 20px;
+    z-index: 50;
+  }
+
+  .navbar-inner-div {
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+
+  .navbar-inner-div ul {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    max-width: 300px;
+    top: -16px;
+    right: 0;
+    background-color: #000000;
+    z-index: 20;
+    justify-content: flex-start;
+  }
+
+  .navbar-inner-div ul li:first-of-type {
+    margin-top: 80px;
+  }
+
+  .navbar-inner-div ul li {
+    margin: 15px 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logoss {
+    scale: 0.7;
+    padding-top: 1.5rem;
+  }
+
+  .hamb {
+    display: block;
+  }
+}

@@ -1,0 +1,121 @@
+.parent {
+  width: 100%;
+  height: 445px;
+  background-image: url(../Images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.main_con .logo {
+  width: 280px;
+  height: auto;
+  top: 128px;
+  margin-left: 0px;
+  left: 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_con .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.main_con .logo h2 {
+  color: #fff;
+  position: absolute;
+}
+
+.middle {
+  width: 400px;
+  /* background-color: aqua;  */
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+  align-items: center;
+
+}
+
+ul {
+  width: 400px;
+  height: 20px;
+
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.ul li a {
+  text-decoration: none;
+  color: white;
+}
+.ul li a:hover {
+  color: orange;
+}
+
+.middle button {
+  position: relative;
+
+  border-radius: 5px;
+
+  padding: 15px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 40px;
+  padding: .7rem 1rem;
+  color: #fff;
+  background: none;
+  border: solid 1.5px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.middle button:hover {
+  border-color: orange;
+}
+
+
+
+.middle .social {
+  width: 80%;
+  height: 40px;
+  /* background-color: beige; */
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+
+}
+
+.middle .social ul a {
+  color: white;
+}
+
+.middle .social ul a:hover {
+  color: orange;
+}
+
+.main_con .map {
+  width: 280px;
+  background-color: bisque;
+  height: 50%;
+  overflow: hidden;
+  border-radius: 20px;
+  height: auto;
+
+}
+
+.main_con .map img {
+  width: 100%;
+  height: 100%;
+}

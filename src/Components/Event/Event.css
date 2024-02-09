@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+  background: #fff;
+  overflow-x: hidden;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  z-index: 0;
+  margin-top: 100px;
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  /* background: #9d5757; */
+  min-height: 100vh;
+  padding-left: 80px;
+  padding-right: 80px;
+  gap: 70px;
+}
+
+.blur-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  /* Adjust the blur amount as needed */
+  z-index: 100;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 3rem;
+}
+
+.heading h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #FF8503;
+}
+
+@media (max-width:650px) {
+  .heading h1 {
+    font-size: 3.0rem;
+    padding-left: 15px;
+  }
+}
+
+
+.card1 {
+  position: relative;
+  width: 220px;
+  height: 300px;
+  background: linear-gradient(180deg, #707070 0%, #212020 76.26%);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card1:hover {
+  box-shadow: #ffb76a 0px 10px 36px 0px, #ffb76a 0px 0px 0px 1px;
+}
+
+.card1 h2 {
+  padding-bottom: 1.8rem;
+  font-size: 24px;
+  color: #ff8503;
+  transition: .5s ease-in-out;
+}
+
+.card1 .img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.card1 .img img {
+  width: 75px;
+  height: auto;
+}
+
+.btns {
+  display: flex;
+
+  justify-content: space-between;
+  gap: 34px;
+  padding-top: 1.8rem;
+
+}
+
+.download {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: .5s ease-in-out;
+}
+
+.download img {
+  width: 100%;
+  height: 100%;
+}
+
+.download:hover {
+  scale: 1.3;
+}
+
+.card1::before,
+.card1::after {
+  position: absolute;
+  content: " ";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #393939;
+  transition: all 0.5s;
+}
+
+.card1::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+}
+
+.card1::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100% 0 15px;
+}
+
+.card1:hover::before,
+.card1:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.card1 .info {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  border-radius: 15px;
+  background-color: #393939;
+
+  z-index: 1;
+  transition: all 0.5s ease-in;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.card1 .info h2 {
+  font-size: 22px;
+}
+
+.fees {
+  font-size: 18px;
+  padding-top: .3rem;
+  color: #fff;
+}
+
+.price {
+  font-size: 14px;
+  padding-top: .8rem;
+  color: #fff;
+}
+
+.card1:hover .info {
+  opacity: 1;
+  /* transition-delay: 0.5s ; */
+}
+
+.btns .btn {
+  padding: .2rem .3rem;
+  border: 2px solid #FF8503;
+  position: relative;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+.btn:hover {
+  scale: 1.2;
+}
+
+.wrapper .pop {
+
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+
+}
