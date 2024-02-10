@@ -12,17 +12,15 @@ const Model = ({ sport, onClose }) => {
         <h2>{sport.name}</h2>
         <h3>{sport.boys}</h3>
         <h3>{sport.girls}</h3>
-        <hr />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          cupiditate similique error! Cumque totam corporis aliquam asperiores
-          dicta enim dolorum.
+        
+        <p className="descriiii">{sport.descri}
         </p>
-        <hr />
-        <h3>Contact</h3>
+      
+        <h3 className="contact_title">Contact</h3>
         <p className="contact">{sport.contact1}</p>
         <p className="contact">{sport.contact2}</p>
-        <button className="Reg">Register</button>
+        {/* <button className="Reg">Register</button> */}
+        <a className="regbutton">Register</a>
       </div>
     </div>
   );

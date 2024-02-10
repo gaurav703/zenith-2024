@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import menu from "../../Images/menu.png";
 import close from "../../Images/closeMenu.png";
-import logo from "../../Images/logo.png";
+// import logo from "../../Images/logo.png";
 import pdf from "../Event/Zenith.pdf";
 
 export default function Navbar() {
