@@ -3,11 +3,11 @@ import "./Event.css";
 import Model from "./Model";
 import Navbar from "../navbar/navbar.jsx";
 import Footer from "../footer2/footer2.jsx";
-import pdf from "./Zenith.pdf";
-import cricket from "./cricket.pdf";
-import chess from "./chess.pdf";
-import Basketball from "./Basketball.pdf";
-import football from "./football.pdf";
+// import pdf from "./Zenith.pdf";
+// import cricket from "./cricket.pdf";
+// import chess from "./chess.pdf";
+// import Basketball from "./Basketball.pdf";
+// import football from "./football.pdf";
 
 const sportsData = [
   {
@@ -122,6 +122,18 @@ const sportsData = [
 const Event = () => {
   const [Pop, setPop] = useState(false);
   const [selectedSport, setSelectedSport] = useState(null);
+
+// Function to open the modal and freeze the screen
+  const openModal = () => {
+    setPop(true);
+    document.body.classList.add("modal-open");
+  };
+
+  // Function to close the modal and unfreeze the screen
+  const closeModal = () => {
+    setPop(false);
+    document.body.classList.remove("modal-open");
+  };
 
   const handleViewMore = (sport) => {
     setSelectedSport(sport);

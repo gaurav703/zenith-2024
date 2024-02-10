@@ -71,7 +71,6 @@
   .middle2 {
     margin-top: 30px;
   }
-
 }
 
 .middle2:hover {
@@ -93,9 +92,10 @@
   padding-bottom: 20px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .hamb {
     display: block;
+    padding-right: 6vw;
   }
 
   .navbar-main-div {
@@ -136,6 +136,8 @@
     margin: 15px 0px;
   }
 }
+
+
 
 @media (max-width: 1000px) {
   .logoss {
