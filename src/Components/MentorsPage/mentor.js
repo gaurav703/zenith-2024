@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./mentor.css";
-import director from "../Images/director.jpeg";
-import dean from "../Images/dean.png";
-import kadam from "../Images/kadam.jpg";
-import reddy from "../Images/reddy.png";
+// import director from "../Images/director.jpeg";
+// import dean from "../Images/dean.png";
+// import kadam from "../Images/kadam.jpg";
+// import reddy from "../Images/reddy.png";
 
 const Mentor = () => {
   const sectionsRef = useRef([]);

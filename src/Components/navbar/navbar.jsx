@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import menu from "../../Images/menu.png";
 import close from "../../Images/closeMenu.png";
-import logo from "../../Images/logo.png";
+// import logo from "../../Images/logo.png";
 import pdf from "../Event/Zenith.pdf";
 
 export default function Navbar() {
@@ -56,7 +56,7 @@ export default function Navbar() {
             <a href="/">OUR TEAM</a>
           </li> */}
 
-          <a className="middle2">Register</a>
+          <a href="https://forms.gle/LRbsX9pw59sUtLJh6" className="middle2" target="_blank">Register </a>
 
           <a className="middle2" onClick={() => download(pdf)}>
             Brochure
