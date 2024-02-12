@@ -50,7 +50,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   padding-bottom: 3rem;
 }
 
@@ -63,7 +63,7 @@ body {
 @media (max-width: 650px) {
   .heading h1 {
     font-size: 32px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
   }
 }
 
@@ -237,11 +237,11 @@ body {
 }
 
 @media (max-width: 500px) {
-  .card1 {
+  /* .card1 {
     scale: 1.2;
-  }
+  } */
   .wrapper {
-    gap: 120px;
+    gap: 60px;
     padding-left: 0;
     padding-right: 0;
   }

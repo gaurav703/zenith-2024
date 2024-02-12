@@ -91,7 +91,6 @@
   color: #fff;
 }
 
-
 @media (max-width: 650px) {
   .pop_up {
     width: 400px;
@@ -101,7 +100,7 @@
 
 @media (max-width: 500px) {
   .pop_up {
-    width: 300px;
+    width: 90vw;
     padding: 20px;
   }
 
@@ -115,7 +114,7 @@
 
 @media (max-width: 400px) {
   .pop_up {
-    width: 260px;
+    width: 90vw;
     padding: 20px;
   }
 

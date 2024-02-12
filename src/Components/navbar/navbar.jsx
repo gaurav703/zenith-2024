@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import menu from "../../Images/menu.png";
-import close from "../../Images/closeMenu.png";
+// import menu from "../../Images/menu.png";
+// import close from "../../Images/closeMenu.png";
 // import logo from "../../Images/logo.png";
 import pdf from "../Event/Zenith.pdf";
 
-export default function Navbar() {
+export default function Navbar({ activePage }) {
   const [c, setC] = useState(0);
-  const [imgSrc, setImgSrc] = useState(
-    "https://res.cloudinary.com/ddaxlm9yc/image/upload/v1707415323/qwci9r7kssikt8oc2o2w.png"
-  );
+  const [menuOpen, setMenuOpen] = useState(false);
 
+  
   function download(pdfpath) {
     const pdfUrl = pdfpath;
     const link = document.createElement("a");
@@ -22,17 +21,15 @@ export default function Navbar() {
   }
 
   const handleMenu = () => {
+    setMenuOpen(!menuOpen);
     if (c === 0) {
       document.getElementById("menu-ul").style.display = "flex";
-      setImgSrc(menu);
       setC(1);
     } else {
       document.getElementById("menu-ul").style.display = "none";
-      setImgSrc(close);
       setC(0);
     }
   };
-
   return (
     <div className="navbar-main-div">
       <div className="logo-black-div">
@@ -45,13 +42,19 @@ export default function Navbar() {
         </div>
       </div>
       <div className="navbar-inner-div">
-        <ul id="menu-ul">
-          <li>
+        <ul id="menu-ul" className="ppp">
+          {/* <li>
             <a href="/">HOME</a>
           </li>
           <li>
             <a href="/events">EVENTS</a>
-          </li>
+          </li> */}
+          <li>
+          <a href="/" className={activePage === 'home' ? 'active' : ''}>HOME</a>
+        </li>
+        <li>
+          <a href="/events" className={activePage === 'events' ? 'active' : ''}>EVENTS</a>
+        </li>
           {/* <li>
             <a href="/">OUR TEAM</a>
           </li> */}
@@ -63,7 +66,7 @@ export default function Navbar() {
           </a>
         </ul>
         <img
-          src="https://res.cloudinary.com/ddaxlm9yc/image/upload/v1707415322/xccapucfk09qn2idc1en.png"
+        src={menuOpen ? "https://res.cloudinary.com/ddaxlm9yc/image/upload/v1707415323/qwci9r7kssikt8oc2o2w.png" : "https://res.cloudinary.com/ddaxlm9yc/image/upload/v1707415322/xccapucfk09qn2idc1en.png"}
           alt="logo"
           className="hamb"
           onClick={handleMenu}

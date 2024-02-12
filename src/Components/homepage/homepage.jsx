@@ -8,7 +8,7 @@ import Footer from "../footer2/footer2.jsx";
 export default function Homepage() {
   return (
     <div>
-      <Navbar />
+      <Navbar activePage="home" />
       <Heropage />
       <About />
       <Mentor />
