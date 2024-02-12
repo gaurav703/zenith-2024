@@ -152,7 +152,7 @@ const Event = () => {
 
   return (
     <>
-      <Navbar />
+      <Navbar activePage="events" />
       <div className="main-container">
         <div className={Pop ? "blur-background" : ""}></div>
         <div className="heading">

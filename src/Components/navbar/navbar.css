@@ -15,6 +15,10 @@
   top: -80px;
 }
 
+/* .active {
+  color: #ff8503;
+} */
+
 .navbar-inner-div {
   width: 50%;
   height: 100%;
@@ -135,11 +139,6 @@
   .navbar-inner-div ul li {
     margin: 15px 0px;
   }
-}
-
-
-
-@media (max-width: 1000px) {
   .logoss {
     scale: 0.7;
     padding-top: 1.5rem;
@@ -147,5 +146,14 @@
 
   .hamb {
     display: block;
+  }
+  .ppp {
+    margin-top: 80px;
+  }
+  .navbar-inner-div ul {
+    gap: 0rem;
+  }
+  .middle2{
+    margin-top: 1.5rem;
   }
 }

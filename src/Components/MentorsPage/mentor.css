@@ -22,7 +22,7 @@ body {
 
 .top-section {
   text-align: center;
-  padding: 2rem 0;
+  padding: 4rem 0 2rem 0;
   max-width: 500px;
   margin: 0 auto;
 }
@@ -194,9 +194,9 @@ body {
     text-align: left;
   }
 
-  .top-section h1 {
+  /* .top-section h1 {
     margin-bottom: 10%;
-  }
+  } */
 
   /* .image {
     width: 250%;
@@ -235,7 +235,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .top-section h1 {
-    margin: 0 0 40% 0;
+    margin: 0 0 30% 0;
   }
 
   .timeline {

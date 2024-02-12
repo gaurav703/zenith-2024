@@ -1,6 +1,7 @@
 import "./Model.css";
 import { X } from "lucide-react";
 const Model = ({ sport, onClose }) => {
+
   return (
     <div className="Main">
       <div className="pop_up" id="pop_up">
@@ -19,8 +20,7 @@ const Model = ({ sport, onClose }) => {
         <h3 className="contact_title">Contact</h3>
         <p className="contact">{sport.contact1}</p>
         <p className="contact">{sport.contact2}</p>
-        {/* <button className="Reg">Register</button> */}
-        <a className="regbutton">Register</a>
+        <a className="regbutton" href="https://forms.gle/LRbsX9pw59sUtLJh6" target="_blank">Register</a>
       </div>
     </div>
   );

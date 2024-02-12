@@ -60,39 +60,14 @@
   width: 347px;
   height: 240px;
   border-radius: 15px;
-  /* background: #D9D9D966; */
-  /* background-image: url("../../Images/Group\ 247.png");
-    background-position: center;
-    background-size: 100% 100%; */
   top: 20%;
   right: 5%;
-  /* font-size: 1.4rem; */
   margin-bottom: 50px;
 }
-
-/* .countdown p {
-    padding-left: 32px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 4px;
-    margin-top: 135px;
-    background-color: antiquewhite;
-} */
-
-/* .countdown p span {
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 .head-heading {
   width: 650px;
   height: 200px;
-  /* background: #000000; */
-  /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
   position: absolute;
   bottom: 5%;
   right: 2%;
@@ -139,10 +114,8 @@
 
 @media (max-width: 1000px) {
   .logo-black-div {
-    /* clip-path: none; */
     width: 100px;
     height: 90px;
-    /* background-color: transparent; */
   }
 
   #player {
@@ -216,8 +189,6 @@
   }
 
   .countdown {
-    /* width: 200px; */
-    /* height: 80px; */
     scale: 0.8;
     margin-top: -30px;
   }
@@ -243,12 +214,6 @@
   #ball {
     left: 80%;
   }
-
-  /* #player {
-    margin-top: 20px;
-    margin-left: -50px;
-  } */
-
   .head-heading {
     padding-top: 50px;
   }
