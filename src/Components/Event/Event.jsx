@@ -36,8 +36,8 @@ const sportsData = [
   {
     image:
       "https://res.cloudinary.com/dqki29mbg/image/upload/v1707415833/Event-Page/xcul6wzqejyuxxh4bjgu.png",
-    name: "RingFootball",
-    pdf: require("./ringfootball.pdf").default,
+    name: "Rink Football",
+    pdf: require("./rinkfootball.pdf").default,
     boys: "Boys : 2000₹",
     // girls: "Girls : 1200₹",
     // contact: "Abhishek avhad: 8329896467 , Fazlur Rahman : 8767221998",

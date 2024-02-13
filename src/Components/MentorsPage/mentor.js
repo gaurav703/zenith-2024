@@ -77,7 +77,7 @@ const Mentor = () => {
             <h2>DR. MANESH.B.KOKARE</h2>
             <h2 className="title2">Director, SGGSIE&T</h2>
             <p>
-              ZENITH is an exhilarating State Level Sports event of SGGSIE&T,
+              &quot;ZENITH is an exhilarating State Level Sports event of SGGSIE&T,
               it&apos;s a platform for every student to showcase their talents
               and athletic skills. The beauty of it lies in its ability to bring
               together the entire sports enthusiasts and student community,
@@ -85,7 +85,7 @@ const Mentor = () => {
               sedentary lifestyles and academic pressures can affect our health,
               it is utmost crucial to emphasize the significance of physical
               activity and its positive impact on both mental and physical well
-              being.
+              being.&quot;
             </p>
           </div>
         </div>
@@ -100,17 +100,38 @@ const Mentor = () => {
             <h2>Mr. S. B. Dethe</h2>
             <h2 className="title2">Dean (Students Affairs), SGGSIE&T</h2>
             <p>
-              Zenith is a state level sports event organized by the students of
+              &quot;Zenith is a state level sports event organized by the students of
               SGGSIE&T consisting of various sports like basketball, football,
               volleyball, etc. various teams from all over the state of
-              Maharashtra compete to Devour the victory. In an all one of the
-              best events in the state, with all the fun and enjoyment for
-              complete 3 days.
+              Maharashtra compete to celebrate the eternal glory. In an all one
+              of the best events in the state, with all the fun and enjoyment
+              for complete 3 days.&quot;
             </p>
           </div>
         </div>
 
         <div className="section" ref={(el) => (sectionsRef.current[2] = el)}>
+          <div className="bead">
+            <img
+              src="https://res.cloudinary.com/ddaxlm9yc/image/upload/v1707822474/w241arqqmkrm1pzppalr.png"
+              className="image"
+            ></img>
+          </div>
+          <div className="content">
+            <h2>Dr. U. R. KAMBLE</h2>
+            <h2 className="title2">Faculty Coordinator, Zenith'24</h2>
+            <p>
+              &quot;Zenith'24 stands as the premier sports festival of SGGSIE&T,
+              Nanded,featuring a myriad of sports competitions as both the
+              inter-collegiate and intra-collegiate levels. It's golden
+              opportunity to become an integral part of SGGS Team Zenith'24.This
+              event offers a unique chance for you to enhance your leadership,
+              confidence and patience.&quot;
+            </p>
+          </div>
+        </div>
+
+        <div className="section" ref={(el) => (sectionsRef.current[3] = el)}>
           <div className="bead">
             <img
               src="https://res.cloudinary.com/dqki29mbg/image/upload/v1707291527/Zenith-24/cb2ei7yn0klvfhjtqz9j.jpg"
@@ -121,15 +142,15 @@ const Mentor = () => {
             <h2>Prof. Bhaskar Kadam</h2>
             <h2 className="title2">Sports Incharge, SGGSIE&T</h2>
             <p>
-              As a sports incharge, it's my duty to encourage athletes to
+              &quot;As a sports incharge, it's my duty to encourage athletes to
               praticipate in such events. This event is bound to enhance your
               gameplay and team synergy. So teams, get warmed-up and be ready to
-              give it all you got!!
+              give it all you got!!&quot;
             </p>
           </div>
         </div>
 
-        <div className="section" ref={(el) => (sectionsRef.current[3] = el)}>
+        <div className="section" ref={(el) => (sectionsRef.current[4] = el)}>
           <div className="bead">
             <img
               src="https://res.cloudinary.com/dqki29mbg/image/upload/v1707291528/Zenith-24/uus5r2qf4joz5tyn3dmd.png"

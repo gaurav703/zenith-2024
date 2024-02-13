@@ -16,11 +16,11 @@
 .ballsss {
   width: 545;
   height: 276px;
-  margin: -190px 0 0 -42vw;
+  margin: -490px 0 0 -42vw;
 }
 
 h1 {
-  color: #FF8503;
+  color: #ff8503;
 }
 
 @media (max-width: 1000px) {
@@ -31,7 +31,7 @@ h1 {
   .ballsss {
     width: 545;
     height: 276px;
-    margin: -190px 0 0 0;
+    margin: -490px 0 0 0;
   }
 }
 
@@ -43,7 +43,8 @@ h1 {
     align-items: center;
   }
 
-  .ballsss{
+  .ballsss {
+    margin-top: -490px;
     width: 80vw;
     height: auto;
     object-fit: contain;
@@ -56,6 +57,9 @@ h1 {
     font-size: 14px;
     text-align: justify;
     padding: 4rem 8vw 6rem 8vw;
+  }
+  .ballsss {
+    margin-top: -490px;
   }
 }
 
