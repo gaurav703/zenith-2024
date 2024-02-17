@@ -18,8 +18,8 @@ export default function Icon() {
       </div>
       <div className="icons-list badge">
         <img src={Badge} className="image"/>
-        <h1>445000 + Prize</h1>
-        <p>Prize worth 4.45L to be won</p>
+        <h1>4Lakh + Prize</h1>
+        <p>Prize worth up to 4Lakh</p>
       </div>
     </div>
   );
