@@ -55,7 +55,6 @@ const Footer2 = () => {
             <div className={styles.ulsocila}>
               <div>
                 <a
-                target="_blank"
                   href="https://www.instagram.com/zenith_sggs?igsh=djNob2lwbXg2aGdi"
                   onMouseEnter={() => setIsHovered(true)}
                   onMouseLeave={() => setIsHovered(false)}
@@ -70,7 +69,6 @@ const Footer2 = () => {
               </div>
               <div>
                 <a
-                target="_blank"
                   href="mailto:zenith@sggs.ac.in"
                   onMouseEnter={() => setIsHovered2(true)}
                   onMouseLeave={() => setIsHovered2(false)}
@@ -80,22 +78,16 @@ const Footer2 = () => {
               </div>
               <div>
                 <a
-                target="_blank"
                   onMouseEnter={() => setIsHovered3(true)}
                   onMouseLeave={() => setIsHovered3(false)}
-                  href="tel:918624846659"
                 >
                   <Phone color={isHovered3 ? "#ff8503" : "#fff"} />
                 </a>
               </div>
               <div>
                 <a
-                target="_blank"
                   onMouseEnter={() => setIsHovered4(true)}
                   onMouseLeave={() => setIsHovered4(false)}
-                  href={
-                      "https://api.whatsapp.com/send?phone=918624846659&text=Hi%20Zenith!%20I%20have%20a%20query%20about%20your%20event."
-                    }
                 >
                   <MessageCircleCode color={isHovered4 ? "#ff8503" : "#fff"} />
                 </a>

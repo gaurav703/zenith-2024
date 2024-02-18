@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 body {
@@ -18,6 +19,7 @@ body {
   flex-wrap: wrap;
   z-index: 0;
   margin-top: 100px;
+
 }
 
 .wrapper {
@@ -30,7 +32,6 @@ body {
   padding-left: 80px;
   padding-right: 80px;
   gap: 70px;
-  padding-bottom: 4rem;
 }
 
 .blur-background {
@@ -50,22 +51,23 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
   padding-bottom: 3rem;
 }
 
 .heading h1 {
-  font-size: 48px;
+  font-size: 60px;
   text-transform: uppercase;
-  color: #ff8503;
+  color: #FF8503;
 }
 
-@media (max-width: 650px) {
+@media (max-width:650px) {
   .heading h1 {
-    font-size: 32px;
-    /* padding-left: 15px; */
+    font-size: 3.0rem;
+    padding-left: 15px;
   }
 }
+
 
 .card1 {
   position: relative;
@@ -91,7 +93,7 @@ body {
   padding-bottom: 1.8rem;
   font-size: 24px;
   color: #ff8503;
-  transition: 0.5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .card1 .img {
@@ -118,6 +120,7 @@ body {
   justify-content: space-between;
   gap: 34px;
   padding-top: 1.8rem;
+
 }
 
 .download {
@@ -126,7 +129,7 @@ body {
   height: 35px;
   border-radius: 50%;
   overflow: hidden;
-  transition: 0.5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .download img {
@@ -198,13 +201,13 @@ body {
 
 .fees {
   font-size: 18px;
-  padding-top: 0.3rem;
+  padding-top: .3rem;
   color: #fff;
 }
 
 .price {
   font-size: 14px;
-  padding-top: 0.8rem;
+  padding-top: .8rem;
   color: #fff;
 }
 
@@ -214,14 +217,14 @@ body {
 }
 
 .btns .btn {
-  padding: 0.2rem 0.3rem;
-  border: 2px solid #ff8503;
+  padding: .2rem .3rem;
+  border: 2px solid #FF8503;
   position: relative;
   border-radius: 5px;
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
-  transition: 0.5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .btn:hover {
@@ -229,20 +232,9 @@ body {
 }
 
 .wrapper .pop {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   position: absolute;
-}
-
-@media (max-width: 500px) {
-  /* .card1 {
-    scale: 1.2;
-  } */
-  .wrapper {
-    gap: 60px;
-    padding-left: 0;
-    padding-right: 0;
-  }
 }

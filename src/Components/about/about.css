@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4rem 8vw 8rem 8vw;
-  margin: 8rem 20vw;
+  margin: 4rem 20vw;
   font-size: 16px;
   color: #fff;
   border-radius: 20px;
@@ -16,35 +16,34 @@
 .ballsss {
   width: 545;
   height: 276px;
-  margin: -490px 0 0 -42vw;
+  margin: -190px 0 0 -42vw;
 }
 
 h1 {
-  color: #ff8503;
+  color: #FF8503;
 }
 
 @media (max-width: 1000px) {
   .whole {
-    margin: 8rem 14vw;
+    margin: 4rem 14vw;
   }
 
-  .ballsss {
+  .img {
     width: 545;
     height: 276px;
-    margin: -490px 0 0 0;
+    margin: -190px 0 0 0;
   }
 }
 
 @media (max-width: 600px) {
   .whole {
-    margin: 8rem 2rem;
+    margin: 4rem 2rem;
     font-size: 14px;
     text-align: justify;
     align-items: center;
   }
 
-  .ballsss {
-    margin-top: -490px;
+  .img {
     width: 80vw;
     height: auto;
     object-fit: contain;
@@ -53,13 +52,10 @@ h1 {
 
 @media (max-width: 500px) {
   .whole {
-    margin: 8rem 2rem;
+    margin: 4rem 2rem;
     font-size: 14px;
     text-align: justify;
     padding: 4rem 8vw 6rem 8vw;
-  }
-  .ballsss {
-    margin-top: -490px;
   }
 }
 

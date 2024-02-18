@@ -1,124 +1,101 @@
 .pop_up {
-  padding: 30px;
-  width: 500px;
-  background: linear-gradient(180deg, #707070 0%, #212020 76.26%);
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  border-radius: 10px;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  position: absolute;
-  z-index: 333;
-  transition: transform 0.5s, top 0.5s;
-}
-.descriiii {
-  line-height: 1.2;
+    padding: 30px;
+    width: 500px;
+    background: linear-gradient(180deg, #707070 0%, #212020 76.26%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(1);
+    border-radius: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    z-index: 333;
+    transition: transform 0.5s, top 0.5s;
 }
 
-.contact_title {
-  padding-top: 0.7rem;
-}
+
 .pop_up h2 {
-  color: orange;
-  margin-top: -30px;
-  padding-bottom: 10px;
+    color: orange;
+    margin-top: -30px;
+    padding-bottom: 10px;
 }
 
 .pop_up .Reg {
-  width: 25%;
-  margin-top: 30px;
-  background: yellow;
-  border: 0;
-  outline: 0;
-  height: 30px;
-  border-radius: 10px;
-  font-size: 1.2rem;
-  cursor: pointer;
+    width: 25%;
+    margin-top: 30px;
+    background: yellow;
+    border: 0;
+    outline: 0;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+
 }
 
-.regbutton {
-  margin-top: 1rem;
-  text-decoration: none;
-  border: 2px solid white;
-  border-radius: 5px;
-  padding: 4px;
-  width: 90px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.regbutton:hover {
-  border-color: #ff8503;
-  color: #fff;
-  background-color: #ff8503;
-}
 .pop_up h3 {
-  color: #fff;
+    color: #fff;
 }
 
 .pop_up .btn33 {
-  width: 100%;
-  display: flex;
-  justify-content: end;
+    width: 100%;
+    display: flex;
+    justify-content: end;
 }
 
 .pop_up .btn33 .x {
-  border: red;
-  outline: none;
-  background: none;
-  cursor: pointer;
-  font-size: 1.9rem;
-  color: #ff8503;
-  transition: 0.3s ease-in-out;
+    border: red;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.9rem;
+    color: #ff8503;
+    transition: .3s ease-in-out;
 }
 
 .x:hover {
-  scale: 2;
+    scale: 2;
 }
 
 .contact {
-  color: #fff;
-  font-size: 1rem;
+    color: #fff;
+    font-size: 1rem;
 }
 
 .pop_up p {
-  color: #fff;
+    color: #fff;
 }
 
-@media (max-width: 650px) {
-  .pop_up {
-    width: 400px;
-    padding: 20px;
-  }
+@media (max-width:650px) {
+    .pop_up {
+        width: 400px;
+        padding: 20px;
+    }
+
 }
 
-@media (max-width: 500px) {
-  .pop_up {
-    width: 90vw;
-    padding: 20px;
-  }
+@media (max-width:500px) {
+    .pop_up {
+        width: 300px;
+        padding: 20px;
+    }
 
-  .pop_up .Reg {
-    width: 36%;
-  }
-  .descriiii {
-    font-size: 14px;
-  }
+    .pop_up .Reg {
+        width: 36%;
+    }
 }
 
-@media (max-width: 400px) {
-  .pop_up {
-    width: 90vw;
-    padding: 20px;
-  }
+@media (max-width:400px) {
+    .pop_up {
+        width: 260px;
+        padding: 20px;
+    }
 
-  .pop_up .Reg {
-    width: 40%;
-  }
+    .pop_up .Reg {
+        width: 40%;
+    }
 }

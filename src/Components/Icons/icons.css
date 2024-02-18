@@ -1,52 +1,62 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
-.icons{
+
+.icons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 1% 0 1% 0;
 }
-.icons-list h1{
+
+.icons-list h1 {
     font-size: 150%;
     margin: 3%;
     color: black;
 }
-.icons-list p{
+
+.icons-list p {
     font-size: 20px;
     color: gray;
 }
-.icons-list:hover{
+
+.icons-list:hover {
     filter: invert(58%) sepia(89%) saturate(2093%) hue-rotate(1deg) brightness(104%) contrast(102%);
 }
-.icons-list{
+
+.icons-list {
     width: 33%;
 }
-.icons-list img{
-    margin: 15% 0 0% 0;
-}   
 
-@media (max-width: 767px){
-    .icons{
+.icons-list img {
+    margin: 15% 0 0% 0;
+}
+
+@media (max-width: 767px) {
+    .icons {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
-    .icons-list{
+
+    .icons-list {
         width: 300px;
         margin: 2%;
     }
-    .icons-list img{
-        width: 50%; 
+
+    .icons-list img {
+        width: 50%;
         height: 30%;
     }
-    .icons-list h1{
+
+    .icons-list h1 {
         font-size: 25px;
         margin: 0% 0 3% 0;
     }
-    .icons-list p{
+
+    .icons-list p {
         font-size: 20px;
     }
 }
