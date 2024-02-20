@@ -1,5 +1,5 @@
 import React from "react";
-import "./icons.css";
+import "../icons/icons.css";
 
 export default function Icon() {
   return (
