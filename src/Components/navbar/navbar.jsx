@@ -56,7 +56,12 @@ export default function Navbar() {
             <a href="/">OUR TEAM</a>
           </li> */}
 
-          <a className="middle2">Register</a>
+          <a
+            className="middle2"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc39wxDFY77MTAe3_nsqOXK1CB-zP7bWjWOBXJNEWkwmVXbqw/viewform"
+          >
+            Register
+          </a>
 
           <a className="middle2" onClick={() => download(pdf)}>
             Brochure
