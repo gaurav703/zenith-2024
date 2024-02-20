@@ -1,5 +1,6 @@
 import React from "react";
-import "../icons/icons.css";
+import "../Icons/icons.css";
+
 export default function Icon() {
   return (
     <div className="icons">
