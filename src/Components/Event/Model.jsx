@@ -22,7 +22,11 @@ const Model = ({ sport, onClose }) => {
         <h3>Contact</h3>
         <p className="contact">{sport.contact1}</p>
         <p className="contact">{sport.contact2}</p>
-        <button className="Reg">Register</button>
+        <button className="Reg">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc39wxDFY77MTAe3_nsqOXK1CB-zP7bWjWOBXJNEWkwmVXbqw/viewform">
+            Register
+          </a>
+        </button>
       </div>
     </div>
   );

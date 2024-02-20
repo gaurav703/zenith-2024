@@ -44,7 +44,9 @@ const Footer2 = () => {
                 <a href="#">OUR TEAM</a>
               </div> */}
               <div className={styles.links}>
-                <a href="/">REGISTER</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc39wxDFY77MTAe3_nsqOXK1CB-zP7bWjWOBXJNEWkwmVXbqw/viewform">
+                  REGISTER
+                </a>
               </div>
             </div>
           </div>
