@@ -1,8 +1,5 @@
 import React from "react";
 import "./heropage.css";
-import player from "../../Images/player.png";
-import ball from "../../Images/ball.png";
-import logo from "../../Images/logo.png";
 import Atropos from "atropos/react";
 import Timer from "../timer/timer";
 import zenithLogo from "../../Images/zenith_logo.png";
