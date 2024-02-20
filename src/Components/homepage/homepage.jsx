@@ -5,6 +5,7 @@ import Icons from  "../Icons/icons.js";
 import Navbar from "../navbar/navbar.jsx";
 import Mentor from "../MentorsPage/mentor.js";
 import Footer from "../footer2/footer2.jsx";
+import Guest from "../GuestPage/guest.js";
 
 export default function Homepage() {
   return (
@@ -13,6 +14,7 @@ export default function Homepage() {
       <Heropage />
       <About />
       <Icons />
+      <Guest />
       <Mentor />
       <Footer />
     </div>
