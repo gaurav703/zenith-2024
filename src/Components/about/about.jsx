@@ -26,7 +26,7 @@ export default function About() {
         <img
           src="https://res.cloudinary.com/ddaxlm9yc/image/upload/v1707427953/jqmii8uwfiub5nlvadxy.png"
           alt=""
-          className="img"
+          className="ballsss"
         />
       </div>
     </div>
