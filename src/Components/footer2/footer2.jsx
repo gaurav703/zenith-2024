@@ -82,6 +82,7 @@ const Footer2 = () => {
                 <a
                   onMouseEnter={() => setIsHovered3(true)}
                   onMouseLeave={() => setIsHovered3(false)}
+                  href="tel:918624846659"
                 >
                   <Phone color={isHovered3 ? "#ff8503" : "#fff"} />
                 </a>
@@ -90,6 +91,9 @@ const Footer2 = () => {
                 <a
                   onMouseEnter={() => setIsHovered4(true)}
                   onMouseLeave={() => setIsHovered4(false)}
+                  href={
+                    "https://api.whatsapp.com/send?phone=918624846659&text=Hi%20Zenith!%20I%20have%20a%20query%20about%20your%20event."
+                  }
                 >
                   <MessageCircleCode color={isHovered4 ? "#ff8503" : "#fff"} />
                 </a>
