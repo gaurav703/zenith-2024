@@ -132,6 +132,25 @@ const Mentor = () => {
         <div className="section" ref={(el) => (sectionsRef.current[3] = el)}>
           <div className="bead">
             <img
+              src="https://res.cloudinary.com/dqki29mbg/image/upload/v1708504623/Zenith-24/u4wlxdhay94eftrky6zm.jpg"
+              className="image"
+            ></img>
+          </div>
+          <div className="content">
+            <h2>Dr. Ankush Sawarkar</h2>
+            <h2 className="title2">Faculty Co-cordinator, Zenith'24</h2>
+            <p>
+              &quot;Zenith is the festival of the sports organised by the sggs
+              from decade for all the students around the Maharashtra. zenith
+              sports teach us organized, well structure, dynamic behaviour of
+              life so enjoy zenith 2024 खेळाच्या जिद्धिने, खेळाच्या सामर्थ्याने,
+              खेळाचे भविष्य बनवुया चला zenith २४ खेळुया&quot;
+            </p>
+          </div>
+        </div>
+        <div className="section" ref={(el) => (sectionsRef.current[4] = el)}>
+          <div className="bead">
+            <img
               src="https://res.cloudinary.com/dqki29mbg/image/upload/v1707291527/Zenith-24/cb2ei7yn0klvfhjtqz9j.jpg"
               className="image"
             ></img>
@@ -147,8 +166,7 @@ const Mentor = () => {
             </p>
           </div>
         </div>
-
-        <div className="section" ref={(el) => (sectionsRef.current[4] = el)}>
+        <div className="section" ref={(el) => (sectionsRef.current[5] = el)}>
           <div className="bead">
             <img
               src="https://res.cloudinary.com/dqki29mbg/image/upload/v1707291528/Zenith-24/uus5r2qf4joz5tyn3dmd.png"
