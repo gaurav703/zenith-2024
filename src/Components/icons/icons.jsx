@@ -9,16 +9,16 @@ export default function Icon() {
           src="https://res.cloudinary.com/dqki29mbg/image/upload/v1708276240/Zenith-24/suevvgq3qeg4mbj6nrg0.png"
           className="image"
         />
-        <h1>7 Sports</h1>
-        <p>Over 7 sports and games</p>
+        <h1>9 Sports</h1>
+        <p>Over 9 sports and games</p>
       </div>
       <div className="icons-list calender">
         <img
           src="https://res.cloudinary.com/dqki29mbg/image/upload/v1708276241/Zenith-24/duj11r2akxkajy4cudn6.png"
           className="image"
         />
-        <h1>7 Years</h1>
-        <p>7 years of successfull execution</p>
+        <h1>9 Years</h1>
+        <p>9 years of successfull execution</p>
       </div>
       <div className="icons-list badge">
         <img

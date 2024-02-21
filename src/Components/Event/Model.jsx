@@ -13,11 +13,11 @@ const Model = ({ sport, onClose }) => {
         <h3>{sport.boys}</h3>
         <h3>{sport.girls}</h3>
         <hr />
-        <p>
+        {/* <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
           cupiditate similique error! Cumque totam corporis aliquam asperiores
           dicta enim dolorum.
-        </p>
+        </p> */}
         <hr />
         <h3>Contact</h3>
         <p className="contact">{sport.contact1}</p>

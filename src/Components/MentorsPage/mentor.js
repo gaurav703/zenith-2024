@@ -103,9 +103,9 @@ const Mentor = () => {
               Zenith is a state level sports event organized by the students of
               SGGSIE&T consisting of various sports like basketball, football,
               volleyball, etc. various teams from all over the state of
-              Maharashtra compete to Devour the victory. In an all one of the
-              best events in the state, with all the fun and enjoyment for
-              complete 3 days.
+              Maharashtra compete to celebrate the eternal glory. In an all one
+              of the best events in the state, with all the fun and enjoyment
+              for complete 3 days.
             </p>
           </div>
         </div>
@@ -143,8 +143,10 @@ const Mentor = () => {
               &quot;Zenith is the festival of the sports organised by the sggs
               from decade for all the students around the Maharashtra. zenith
               sports teach us organized, well structure, dynamic behaviour of
-              life so enjoy zenith 2024 खेळाच्या जिद्धिने, खेळाच्या सामर्थ्याने,
-              खेळाचे भविष्य बनवुया चला zenith २४ खेळुया&quot;
+              life so enjoy zenith 2024
+              <br />
+              खेळाच्या जिद्धिने, खेळाच्या सामर्थ्याने, खेळाचे भविष्य बनवुया चला
+              zenith २४ खेळुया&quot;
             </p>
           </div>
         </div>
